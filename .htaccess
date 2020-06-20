@@ -1,0 +1,4 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteCond %{http_host} ^prolimaarquitetura.com.br [NC]
+RewriteRule ^(.*)$ http://www.prolimaarquitetura.com.br/$1 [R=301,L]
